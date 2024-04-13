@@ -50,7 +50,7 @@ const Header = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/shrikant-kushwah">Github <FaGithub size={30}/></a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1DA1F2]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1DA1F9]'>
             <a className='flex justify-between items-center w-full text-gray-300' href="https://twitter.com/kushwa_shrikant">Twitter <FaTwitter size={30}/></a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b1]'>

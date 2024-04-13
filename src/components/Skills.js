@@ -19,11 +19,11 @@ import Trading from '../assets/trading.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='bg-[#0a192f] text-gray-300'>
+    <div name='skills' className='w-full h-auto bg-[#0a192f] text-gray-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
-          <p className='text-3xl font-bold inline border-b-4 border-red-500'>Experience</p>
+          <p className='text-3xl font-bold inline border-b-4 border-red-500'>Skills</p>
           <span className='flex items-center'>
           <GrTechnology />
           <p className='py-4 mx-2'>These are the technologies I have worked with</p>
