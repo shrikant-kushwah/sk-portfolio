@@ -23,7 +23,7 @@ const Skills = () => {
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
-          <p className='text-3xl font-bold inline border-b-4 border-red-500'>Skills</p>
+          <p className='text-4xl font-bold inline border-b-4 border-red-500'>Skills</p>
           <span className='flex items-center'>
           <GrTechnology />
           <p className='py-4 mx-2'>These are the technologies I have worked with</p>
@@ -48,28 +48,28 @@ const Skills = () => {
             <p className='py-4'>REACT</p>
           </div>
           <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Firebase} alt="html-icon" />
-            <p className='py-4'>FIREBASE</p>
-          </div>
-          <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={AWS} alt="html-icon" />
-            <p className='py-4'>AWS</p>
-          </div>
-          <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Github} alt="html-icon" />
-            <p className='py-4'>GITHUB</p>
+            <img className='w-20 mx-auto' src={Redux} alt="html-icon" />
+            <p className='py-4'>REDUX</p>
           </div>
           <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Tailwind} alt="html-icon" />
             <p className='py-4'>TAILWINDCSS</p>
           </div>
           <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Redux} alt="html-icon" />
-            <p className='py-4'>REDUX</p>
-          </div>
-          <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-24 mx-auto' src={Bootstrap} alt="html-icon" />
             <p className='py-4'>BOOTSTRAP</p>
+          </div>
+          <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={Github} alt="html-icon" />
+            <p className='py-4'>GITHUB</p>
+          </div>
+          <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={Firebase} alt="html-icon" />
+            <p className='py-4'>FIREBASE</p>
+          </div>
+          <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={AWS} alt="html-icon" />
+            <p className='py-4'>AWS</p>
           </div>
           <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Node} alt="html-icon" />
