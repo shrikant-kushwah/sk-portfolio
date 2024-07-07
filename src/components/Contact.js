@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { MdContactMail } from "react-icons/md";
 
 const Contact = () => {
@@ -19,11 +20,20 @@ const Contact = () => {
           <button className='text-white border-2 hover:bg-red-500 hover:border-red-500 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
         </form>
       </div>
-      <div className='w-full h-auto text-gray-600 bg-[#0a192f] py-8 px-8'>
-        <div className='w-9/12 border-t-2 border-red-500 flex flex-wrap justify-between items-center py-4 ml-[12%] text-center text-sm font-extralight'>
-        <p className='text-gray-300'>Copyright Calendly 2024</p>
-        <p className='text-gray-300'>Created with <span className='text-lg'>❤️</span> By Shrikant Kushwah</p>
-        <p className='text-gray-300'>Privacy / Terms and Conditions</p>
+      <div className='w-full h-auto text-gray-600 bg-[#0a192f]'>
+      <ul className='md:hidden flex justify-center items-center'>
+            <li className='flex justify-between items-center  duration-300 bg-[#0a66c2] border border-[#0a66c2] w-12 h-12 rounded-full mx-2'>
+              <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/shrikant-kushwah-5bb1911b2/"> <FaLinkedin size={30} /></a>
+            </li>
+            <li className=' flex justify-between items-center duration-300 bg-[#333333] border border-[#333333] w-12 h-12 rounded-full mx-2'>
+              <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/shrikant-kushwah"> <FaGithub size={30} /></a>
+            </li>
+            <li className=' flex justify-between items-center duration-300 bg-[#1DA1F9] border border-[#1DA1F9] w-12 h-12 rounded-full mx-2'>
+              <a className='flex justify-between items-center w-full text-gray-300' href="https://twitter.com/kushwa_shrikant"> <FaTwitter size={30} /></a>
+            </li>
+          </ul>
+        <div className='w-full flex justify-center items-center py-2 text-center font-extralight'>
+          <p className='w-full text-gray-500 border-t-2 border-gray-800 text-[13px] md:text-[15px] py-2'>Designed and build by Shrikant Kushwah | All rights reserved</p>
         </div>
       </div>
     </>
