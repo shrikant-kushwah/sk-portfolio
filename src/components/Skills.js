@@ -16,6 +16,7 @@ import Bootstrap from '../assets/bootstrap.png';
 import MySql from '../assets/mysql.png';
 import BurpSuite from '../assets/BurpSuite.png';
 import Trading from '../assets/trading.png';
+import ExpressJs from '../assets/expressJs.png';
 
 
 const Skills = () => {
@@ -27,7 +28,7 @@ const Skills = () => {
           <p className='text-4xl font-bold inline border-b-4 border-red-500'>My Technical Skills</p>
           <span className='flex items-center'>
           <GrTechnology />
-          <p className='py-4 mx-2'>These are the technologies I have worked with</p>
+          <p className='py-2 mx-2'>These are the technologies I have worked with</p>
           </span>
         </div>
 
@@ -75,6 +76,10 @@ const Skills = () => {
           <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Node} alt="html-icon" />
             <p className='py-4'>NODE JS</p>
+          </div>
+          <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-24 mx-auto text-white' src={ExpressJs} alt="html-icon" />
+            <p className='py-4'>EXPRESS JS</p>
           </div>
           <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Mongo} alt="html-icon" />

@@ -12,11 +12,12 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-3xl font-bold'>
-              <p>Hi. I'm Shrikant Kushwah, nice to meet you. Please take a look around.</p>
+              <p>Hi, I'm Shrikant Kushwah. Welcome! Feel free to explore and discover more about my work.</p>
             </div>
 <div>
   <p>
-    I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations. what would you do if you had a software expert available at your fingertips?
+    {/* I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations. what would you do if you had a software expert available at your fingertips? */}
+    As a dedicated Frontend Developer specializing in React.js, I create dynamic and responsive web applications. With expertise in HTML, CSS, and JavaScript, I focus on delivering seamless user experiences with a keen eye for design and detail. I thrive in collaborative environments, constantly learning and adapting to industry trends. My goal is to write efficient, scalable code to ensure optimal performance and user satisfaction. Let’s work together to transform innovative ideas into exceptional digital experiences.
   </p>
 </div>
           </div>
