@@ -9,7 +9,7 @@ const Work = () => {
 
   return (
     <div name='work' className='bg-[#0a192f] w-full md:h-auto text-gray-300'>
-      <div className='max-w-[1050px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='md:max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-4'>
           <p className='text-[28px] md:text-4xl font-bold text-gray-300 inline border-b-4 border-red-500'>
             My Creative Work Collection
@@ -21,7 +21,7 @@ const Work = () => {
         </div>
 
         {/* Container for projects */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-5'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-5'>
           {/* This is grid Item} */}
           {project.map((item, index) => (
             <div
