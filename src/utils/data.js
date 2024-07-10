@@ -24,7 +24,7 @@ export const data = [
     name:"React JS Application",
     projectName:"Netflix-GPT",
     image:NetflixImg,
-    github:"https://github.com/shrikant-kushwah/netflixgpt",
+    github:"https://github.com/shrikant-kushwah/netflix-gpt",
     live:"https://netflixgpt-rho.vercel.app/",
   },
   {
