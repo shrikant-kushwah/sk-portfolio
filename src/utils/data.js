@@ -8,15 +8,32 @@ import LiveRestaurant from '../assets/projects/liveRestaurant.png';
 import OnlineFoodWebsite from '../assets/projects/onlineFoodDeliveryWebsite.png';
 import ContactForm from '../assets/projects/contact-form.png';
 import ModernCalculator from '../assets/projects/modernCalculator.png';
+import Resumegen from '../assets/projects/resumegen.png'
 
 export const data = [
   {
     id:1,
     name:"React JS Application",
+    projectName:"Resume Generator",
+    image:Resumegen,
+    github:"https://github.com/shrikant-kushwah/ResumeGenerator",
+    live:"https://resume-generator-steel.vercel.app/",
+  },
+  {
+    id:2,
+    name:"React JS Application",
     projectName:"Netflix-GPT",
     image:NetflixImg,
     github:"https://github.com/shrikant-kushwah/netflixgpt",
     live:"https://netflixgpt-rho.vercel.app/",
+  },
+  {
+    id:4,
+    name:"React JS Application",
+    projectName:"Ecommerce Web",
+    image:Ecommerce,
+    github:"https://github.com/shrikant-kushwah/react.js-e-commerce-Website",
+    live:"https://react-js-e-commerce-website.vercel.app/",
   },
   {
     id:2,
@@ -34,14 +51,7 @@ export const data = [
     github:"https://github.com/shrikant-kushwah/web-page-design-ATPL",
     live:"https://web-page-design-atpl-2q9c.vercel.app/",
   },
-  {
-    id:4,
-    name:"React JS Application",
-    projectName:"Ecommerce Web",
-    image:Ecommerce,
-    github:"https://github.com/shrikant-kushwah/react.js-e-commerce-Website",
-    live:"https://react-js-e-commerce-website.vercel.app/",
-  },
+  
   {
     id:5,
     name:"JavaScript Application",
