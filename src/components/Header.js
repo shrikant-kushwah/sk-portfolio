@@ -32,7 +32,7 @@ const Header = () => {
 
       {/* Hamburger */}
       <div onClick={handleHamburgerClick} className='md:hidden z-10'>
-        {!header ? <FaBars /> : <FaTimes />}
+        {!header ? <FaBars size={24}/> : <FaTimes size={24} />}
       </div>
 
       {/* Mobile menu */}
