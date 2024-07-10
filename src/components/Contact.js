@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import ContactImage from '../assets/contact-us.png'
+import ContactImage from '../assets/portfolio-contact.png'
 // import { MdContactMail } from "react-icons/md";
 
 const Contact = () => {
@@ -8,7 +8,7 @@ const Contact = () => {
     <>
       <div name='contact' className='w-full h-screen bg-[#0a192f] flex flex-col md:flex-row justify-evenly items-center p-4'>
         <div className='text-gray-300 w-auto h-auto'>
-          <h1 className='text-5xl font-bold text-gray-300 py-4'>Let's work <br/>together</h1>
+          <h1 className='text-2xl md:text-4xl font-bold text-gray-300 py-4 md:w-44'>Let's work together</h1>
           <div className='py-2'>
             <h2 className='text-lg font-semibold'>Mail</h2>
             <span className='text-sm'>shrikant20052001@gmail.com</span>
@@ -23,7 +23,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='w-auto h-auto'>
-          <img className='w-[500px]' src={ContactImage} alt="contactImage" />
+          <img className='w-[250px]' src={ContactImage} alt="contactImage" />
           {/* <form method='POST' action="https://getform.io/f/5796288b-1ae3-4000-8b2a-a0fc86db4f4e" className='flex flex-col w-[400px] gap-4 text-white'>
             <input className='bg-transparent border border-b-white rounded-sm p-2' type="text" required placeholder='Name' />
             <input className='bg-transparent border border-b-white rounded-sm p-2' type="email" required placeholder='Email' />
