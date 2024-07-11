@@ -1,6 +1,6 @@
 import NetflixImg from '../assets/projects/netflixx.png';
 import WeatherImg from '../assets/projects/weatherImg.png';
-import WebPageAtpl from '../assets/projects/atpl.png'
+import WebPageAtpl from '../assets/projects/atpl.png';
 import Ecommerce from '../assets/projects/ecommerce-page.png';
 import ModenBank from '../assets/projects/modernBank.png';
 import GPT3 from '../assets/projects/gpt3-sk.png';
@@ -8,7 +8,8 @@ import LiveRestaurant from '../assets/projects/liveRestaurant.png';
 import OnlineFoodWebsite from '../assets/projects/onlineFoodDeliveryWebsite.png';
 import ContactForm from '../assets/projects/contact-form.png';
 import ModernCalculator from '../assets/projects/modernCalculator.png';
-import Resumegen from '../assets/projects/resumegen.png'
+import Resumegen from '../assets/projects/resumegen.png';
+import ReduxEcom from '../assets/projects/redux-ecom.png';
 
 export const data = [
   {
@@ -26,6 +27,14 @@ export const data = [
     image:NetflixImg,
     github:"https://github.com/shrikant-kushwah/netflix-gpt",
     live:"https://netflixgpt-rho.vercel.app/",
+  },
+  {
+    id:2,
+    name:"React-Redux Application",
+    projectName:"Redux Ecom",
+    image:ReduxEcom,
+    github:"https://github.com/shrikant-kushwah/Redux-Ecom-website",
+    live:"https://redux-ecom-website.vercel.app/",
   },
   {
     id:4,
