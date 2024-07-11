@@ -88,7 +88,7 @@ export const data = [
   {
     id:8,
     name:"JS Application",
-    projectName:"Online Food",
+    projectName:"Online Food Web",
     image:OnlineFoodWebsite,
     github:"",
     live:"https://online-food-delivery-website-five.vercel.app/",
