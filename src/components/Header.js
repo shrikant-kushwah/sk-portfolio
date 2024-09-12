@@ -64,7 +64,7 @@ const Header = () => {
             <a className='flex justify-between items-center w-full text-gray-300' href="mailto:shrikant@20052001@gmail.com">Email <HiOutlineMail size={30} /></a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/1frQci8tTonoe0deiiLI_rljOdBMDLdjV/view?usp=sharing">Resume <BsFillPersonLinesFill size={30} /></a>
+            <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/18viuzURo6rqHd2hGiYcqR-LHi-Bo6JFi/view?usp=sharing">Resume <BsFillPersonLinesFill size={30} /></a>
           </li>
         </ul>
       </div>
