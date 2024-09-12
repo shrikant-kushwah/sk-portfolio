@@ -58,7 +58,7 @@ const Contact = () => {
           </li>
         </ul>
         <div className='w-full flex justify-center items-center py-2 text-center font-extralight'>
-          <p className='w-full text-gray-500 border-t-2 border-gray-800 text-[13px] md:text-[15px] py-2'>Designed and build by Shrikant Kushwah | All rights reserved</p>
+          <p className='w-full text-gray-500 border-t-2 border-gray-800 text-[13px] md:text-[15px] py-2'>Designed and build by Shrikant Kushwah | 2024 | All rights reserved</p>
         </div>
       </div>
     </>

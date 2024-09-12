@@ -16,7 +16,6 @@ const About = () => {
           </div>
           <div>
             <p className='text-md text-[#8892b0]'>
-              {/* I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations. what would you do if you had a software expert available at your fingertips? */}
               As a dedicated Frontend Developer specializing in React.js, I create dynamic and responsive web applications. With expertise in HTML, CSS, and JavaScript, I focus on delivering seamless user experiences with a keen eye for design and detail. I thrive in collaborative environments, constantly learning and adapting to industry trends. My goal is to write efficient, scalable code to ensure optimal performance and user satisfaction. Let’s work together to transform innovative ideas into exceptional digital experiences.
             </p>
           </div>
