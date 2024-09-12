@@ -10,8 +10,17 @@ import ContactForm from '../assets/projects/contact-form.png';
 import ModernCalculator from '../assets/projects/modernCalculator.png';
 import Resumegen from '../assets/projects/resumegen.png';
 import ReduxEcom from '../assets/projects/redux-ecom.png';
+import ShoppingCart from '../assets/projects/shopping-cart.png';
 
 export const data = [
+  {
+    id:1,
+    name:"React JS Application",
+    projectName:"Shopping Cart",
+    image:ShoppingCart,
+    github:"https://github.com/shrikant-kushwah/Shopping-Cart",
+    live:"https://shopping-cart-online-ruby.vercel.app/",
+  },
   {
     id:1,
     name:"React JS Application",
